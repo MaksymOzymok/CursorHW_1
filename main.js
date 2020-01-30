@@ -9,8 +9,9 @@ console.log(sum);
 let sum2 = Math.floor(ladaPrice) + Math.floor(audiPrice) + Math.floor(bmwPrice);
 console.log(sum2);
 
-let roundedSum = Math.ceil(Math.round(sum) / 100)  * 100 ;
+let roundedSum =  Math.round(sum / 100)*100;
 console.log(roundedSum);
+
 
 let isEven = Math.floor(sum) % 2 === 0;
 console.log(isEven);
